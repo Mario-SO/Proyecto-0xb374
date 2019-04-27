@@ -1,8 +1,32 @@
 <div class="jumbo">
+
     <div class="right tomster"></div>
     <h2>Welcome!</h2>
     <p>We hope you find exactly what you're looking for in a place to stay.</p>
     {{#link-to "about" class="button"}}
-    About Us
+    About
     {{/link-to}}
+
+    <!-- each = loop -->
+    {{#each this.model as |podcast|}}
+    <article class="listing">
+        <div class="details">
+
+            <h3>{{podcast.title}}</h3>
+            <div class="detail owner">
+                <span>Owner:</span> {{podcast.owner}}
+            </div>
+            <div class="detail type">
+                <span>Type:</span> {{podcast.category}}
+            </div>
+            <div class="detail location">
+                <span>Location:</span> {{podcast.city}}
+            </div>
+            <div class="detail bedrooms">
+                <span>Number of bedrooms:</span> {{podcast.bedrooms}}
+            </div>
+
+        </div>
+    </article>
+    {{/each}}
 </div>
