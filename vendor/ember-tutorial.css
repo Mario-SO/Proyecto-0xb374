@@ -208,9 +208,9 @@ p {
  */
 
 .listing {
-  margin-top: 15px;
+  margin-top: 100px;
   background-color: #f6f6f6;
-  padding: 15px 50px;
+  padding: 0px  0px;
   min-height: 200px;
   display: flex;
   justify-content: space-between;
@@ -222,7 +222,7 @@ p {
 }
 
 .listing img {
-  height: 100px;
+  height: 205px;
   float: left;
   padding-right: 45px;
   border-radius: 5px;
@@ -283,7 +283,7 @@ p {
   flex-grow: 2;
   flex: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-content: space-around;
 }
