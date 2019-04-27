@@ -208,24 +208,26 @@ p {
  */
 
 .listing {
-  margin-top: 100px;
-  background-color: #f6f6f6;
+  margin-top: 130px;
+  background-color: #e0dcdc;
   padding: 0px  0px;
   min-height: 200px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
+/*
 .listing:hover {
   background-color: #f6f6f6;
 }
+*/
 
 .listing img {
-  height: 205px;
+  height: 200px;
   float: left;
   padding-right: 45px;
-  border-radius: 5px;
+  margin-top: 50px; 
+  /*border-radius: 5px;*/
 }
 
 .listing a.image.wide {
@@ -238,7 +240,7 @@ p {
 
 .listing .wide img {
   height: initial;
-  width: 100%;
+  width: 95%;
   margin-bottom: 30px;
 }
 

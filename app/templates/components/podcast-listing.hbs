@@ -1,5 +1,9 @@
 <article class="listing">
-    <img src={{this.podcast.image}} alt="">
+    <a class="image {{if this.isWide "wide"}}" role="button">
+        <a onclick={{action "toggleImageSize"}} class="image {{if this.isWide "wide"}}" role="button">
+            <img src={{this.podcast.image}} alt="">
+        </a>
+    </a>
     <div class="details">
         <h3>{{this.podcast.title}}</h3>
         <div class="detail owner">
