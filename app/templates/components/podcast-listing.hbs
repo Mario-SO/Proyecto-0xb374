@@ -3,6 +3,9 @@
         <a onclick={{action "toggleImageSize"}} class="image {{if this.isWide "wide"}}" role="button">
             <img src={{this.podcast.image}} alt="">
         </a>
+        <audio controls>
+            <source src="../../../public/assets/audio-files/ep0.mp3" type="audio/mpeg">
+        </audio>
     </a>
     <div class="details">
         <h3>{{this.podcast.title}}</h3>
