@@ -10,6 +10,7 @@ export default Route.extend({
             category: 'Estate',
             bedrooms: 15,
             image: '../assets/images/pod-logo.png',
+            audio: '../assets/audio-files/ep0.mp3',
             description: 'This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests.'
         }, {
             id: 'urban-living',
@@ -19,6 +20,7 @@ export default Route.extend({
             category: 'Condo',
             bedrooms: 1,
             image: '../assets/images/pod-logo.png',
+            audio: '../assets/audio-files/ep0.mp3',
             description: 'A commuters dream. This rental is within walking distance of 2 bus stops and the Metro.'
         }, {
             id: 'downtown-charm',
@@ -28,6 +30,7 @@ export default Route.extend({
             category: 'Apartment',
             bedrooms: 3,
             image: '../assets/images/pod-logo.png',
+            audio: '../assets/audio-files/ep0.mp3',
             description: 'Convenience is at your doorstep with this charming downtown rental. Great restaurants and active night life are within a few feet.'
         }];
     }
